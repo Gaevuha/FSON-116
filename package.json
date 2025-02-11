@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "vite-busieness-promotion",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/FSON-116/",
+    "build": "vite build --base=/vite-busieness-promotion/",
     "preview": "vite preview"
   },
   "devDependencies": {
