@@ -1,0 +1,60 @@
+/* Managment section */
+
+.managment-section .container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.management-img {
+  margin-bottom: 50px;
+}
+
+.title {
+  width: 305px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title-decor {
+  font-weight: 700;
+  font-size: 32px;
+}
+.text {
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+  margin-bottom: 12px;
+}
+
+.managment-card:not(:last-child) {
+  margin-bottom: 16px; /*25px*/
+}
+
+ @media screen and (min-width: 1150px) {
+.managment-section .container {
+   flex-direction: inherit;
+   justify-content: space-between;
+}
+
+.managment-container {
+  max-width: 486px;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.managment-card:not(:last-child) {
+  margin-bottom: 25px;
+}
+}

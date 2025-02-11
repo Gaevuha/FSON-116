@@ -2,22 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>Business promotion</title>
   </head>
   <body>
-    <load src="./partials/header.html" />
+    <load src="./partials/product/header.html" />
 
     <main>
       <!-- Loads the specified .html file -->
-      <load src="./partials/hero.html" />
-      <load src="./partials/team.html" />
+      <load src="./partials/product/hero.html" />
+      <load src="./partials/product/mobile-menu.html" />
+      <load src="./partials/product/product.html" />
+      <load src="./partials/product/management.html" />
+      <load src="./partials/product/support.html" />
+      <load src="./partials/product/collaborative.html" />
+      <load src="./partials/product/process.html" />
+      <load src="./partials/product/strategies.html" />
     </main>
 
-    <load src="./partials/footer.html" />
+    <load src="./partials/product/footer.html" />
 
-    <script type="module" src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script type="module" src="./js/menu.js"></script>
   </body>
 </html>

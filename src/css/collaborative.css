@@ -1,0 +1,45 @@
+/* Collaborative section */
+
+.collaborative-section .container {
+  display: flex;
+  flex-direction: column-reverse;
+ 
+}
+
+.collaboration-img {
+  margin-bottom: 50px;
+}
+
+.collaborative-card:not(:last-child) {
+  margin-bottom: 16px;/*25*/
+}
+
+
+ @media screen and (min-width: 1150px) {
+ 
+  .collaborative-section .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.collaborative-card:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+
+.collaborative-section {
+  padding-bottom: 75px;
+}
+
+
+.collaborative-container {
+  max-width: 486px;
+}
+
+.collaboration-img {
+  margin-bottom: 0;
+}
+
+}

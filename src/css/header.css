@@ -1,0 +1,134 @@
+.header {
+  padding: 0;
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.header .container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu,
+.btn-menu {
+    display: none;
+}
+
+.burger-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+.burger-icon{
+  display: block;
+  stroke-width: 3px;
+  stroke: #173a56;
+}
+
+.header .link-logo {
+    display: block;
+    padding: 21px 0;
+    color:var(--color-logo);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93; 
+    display: flex;
+    align-items: center;
+    gap: 16px;
+   
+}
+
+
+@media screen and (min-width: 1150px) {
+
+ .header {
+  box-shadow: none;
+} 
+
+.header .link-logo {
+    margin-right: 237px;
+}
+
+.burger-btn {
+    display: none;
+}  
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.link {
+    display: block;
+    color: var(--color-primeri-dark);
+    text-decoration: none;
+    line-height: 1.75;
+    padding: 26px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover {
+  color: var(--color-brand);
+}
+
+.link.current {
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.btn-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+}
+
+.button-in,
+.button-up {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  padding: 11px 0;
+}
+
+.btn-menu .button-in {
+  min-width: 105px;
+  border: 1px solid var(--color-brand-light);
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.btn-menu .button-up {
+  min-width: 113px;
+  border-radius: 4px;
+  background-color: var(--color-brand);
+  color: var(--color-primeri-white);
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button-in:hover,
+.button-in:focus {
+  color: var(--color-primeri-white);
+  background-color: var(--color-brand);
+  border: none;
+}
+
+.button-up:hover,
+.button-up:focus {
+  color: var(--color-primeri-dark);
+  background-color: transparent;
+  border: 1px solid var(--color-brand-light);
+}
+}

@@ -1,0 +1,82 @@
+/* Support section */
+
+.support-img {
+  margin-bottom: 50px;
+}
+
+.support-container .title {
+  margin-bottom: 15px;
+}
+
+.support-container .text {
+  margin-bottom: 16px;
+}
+.support-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.support-card:not(:last-child) {
+  margin-bottom: 16px; /*25px*/
+}
+
+.support-path {
+  width: 35px;
+  height: 35px;
+  border: 2.92px solid var(--color-primeri-white);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 8px 0;
+}
+
+.support-path.one {
+  background-color: var(--color-icon-yellow);
+}
+.support-path.two {
+  background-color: var(--color-icon-red);
+}
+.support-path.three {
+  background-color: var(--color-icon-blue);
+}
+
+.icon-path {
+  fill: var(--color-primeri-white);
+}
+
+ @media screen and (min-width: 1150px) {
+  .support-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.support-container {
+  max-width: 450px;
+}
+
+.support-list {
+  width: 450px;
+}
+
+.support-img {
+  margin-bottom: 0;
+}
+
+.support-container .title {
+  margin-bottom: 25px;
+}
+
+.support-container .text {
+  margin-bottom: 30px;
+
+}
+
+.support-card:not(:last-child) {
+  margin-bottom: 25px;
+}
+ 
+}
