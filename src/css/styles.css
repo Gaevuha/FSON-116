@@ -20,4 +20,8 @@
 @import url('./collaborative.css');
 @import url('./process.css');
 @import url('./strategies.css');
-/* @import url('./footer.css'); */
+@import url('./price.css');
+@import url('./clients.css');
+@import url('./promo.css');
+@import url('./footer.css');
+@import url('../rateYo-2.3.4/src/jquery.rateyo.css');

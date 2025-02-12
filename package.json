@@ -17,6 +17,11 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.7.1",
+    "jquery-migrate": "^3.5.2",
+    "jquery-raty-js": "^2.8.0",
+    "rateyo": "^2.3.2",
+    "slick-carousel": "^1.8.1",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
