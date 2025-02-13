@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     $rating.rateYo({
       rating: 4,
-      starWidth: "20px", // Розмір зірки
+      starWidth: "18px", // Розмір зірки
       numStars: 5,       // Кількість зірок
       // fullStar: true,    // Повні зірки
         onSet: function (rating) {

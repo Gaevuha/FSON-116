@@ -75,12 +75,12 @@ margin-bottom: 16px;
 }
 .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-normal-group > svg {
   fill: white;
-  stroke: yellow;
+  stroke:  #f3cd03;
   stroke-width: 30px;
 }
 
 .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-rated-group > svg {
-  fill: yellow;
+  fill:  #f3cd03;
 }
 
 .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
