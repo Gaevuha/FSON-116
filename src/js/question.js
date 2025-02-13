@@ -10,7 +10,7 @@ questionItems.forEach((item) => {
     if (questionText) {
     questionText.style.display = 'none';
   }
-  icon.setAttribute('href', '/vite-business-promotion/img/icons.svg#icon-plus-circle');
+  icon.setAttribute('href', '/vite-busieness-promotion/img/icons.svg#icon-plus-circle');
 
   // Встановлюємо обробник кліку на іконку
   item.addEventListener('click', () => {
@@ -19,7 +19,7 @@ questionItems.forEach((item) => {
 
     if (isOpen) {
       // Закриваємо текст і змінюємо іконку на "icon-plus-circle"
-      icon.setAttribute('href', '/vite-business-promotion/img/icons.svg#icon-plus-circle');
+      icon.setAttribute('href', '/vite-busieness-promotion/img/icons.svg#icon-plus-circle');
       if (questionText) {
         questionText.style.display = 'none';
       }
@@ -29,14 +29,14 @@ questionItems.forEach((item) => {
         const otherIcon = otherItem.querySelector('.icon-question use');
         const otherText = otherItem.querySelector('.question-item-text');
         
-        otherIcon.setAttribute('href', '/vite-business-promotion/img/icons.svg#icon-plus-circle');
+        otherIcon.setAttribute('href', '/vite-busieness-promotion/img/icons.svg#icon-plus-circle');
         if (otherText) {
           otherText.style.display = 'none';
         }
       });
 
       // Відкриваємо текст і змінюємо іконку на "icon-minus-circle"
-      icon.setAttribute('href', '/vite-business-promotion/img/icons.svg#icon-minus-circle');
+      icon.setAttribute('href', '/vite-busieness-promotion/img/icons.svg#icon-minus-circle');
       if (questionText) {
         questionText.style.display = 'block';
       }
