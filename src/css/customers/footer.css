@@ -1,0 +1,242 @@
+/* Footer */
+
+.section.footer-section.customers {
+  padding-top: 50px;
+}  
+
+.footer-wrap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section .link-logo {
+  color:var(--color-logo);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93; 
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.sociale {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.item-icons {
+  width: 40px;
+  height: 40px; 
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-icon-cociale);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sociale-icons {
+  fill: var(--color-icon-cociale);
+  stroke: var(--color-brand);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list {
+   text-align: center;
+}
+
+.footer-link {
+  color: var(--color-primeri-dark);
+  text-decoration: none;
+  line-height: 2.19;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.wrap-title-list {
+  margin-bottom: 32px;
+}
+
+.footer-title.form {
+  max-width: 280px;
+  margin-bottom: 34px;
+}
+
+.footer-text {
+ line-height: 1.87;
+ text-align: center;
+}
+
+.wrap-title-form-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
+}
+
+.form-icon {
+  display: none;
+}
+
+/* Загальний стиль форми */
+.order-form {
+  max-width: 325px;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  max-width: 325px;
+  padding: 10px 15px;
+  border: 1px solid var(--color-brand-light);
+  border-radius: 4px;
+  line-height: 1.75;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* При фокусі на інпуті */
+.form-field:focus {
+  border: 0.5px solid var(--color-primeri-light);
+  outline: none;
+ }
+
+.form-field::placeholder {
+  color: transparent; 
+}
+
+.footer-btn {
+  min-width: 131px;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 1150px) {
+
+.section.footer-section.customers {
+  padding-top: 75px;
+}  
+
+.form-icon {
+  display: flex;
+}
+
+.footer-wrap-container {
+   flex-direction: row;
+   align-items: flex-start;
+   margin-bottom: 10px;
+}
+
+.footer-section .link-logo {
+  margin-bottom: 18px;
+}
+
+.sociale {
+  margin-bottom: 0;
+}
+
+.footer-list {
+   text-align: start;
+}
+
+.footer-title {
+  text-align: start;
+ }
+
+.footer-title.form {
+  max-width: 280px;
+  margin-bottom: 30px;
+}
+
+.order-form {
+  margin-bottom: 25px;
+}
+
+.form-field {
+  padding: 10px 0 10px 42px;
+}
+
+.form-field::placeholder {
+  color: var(--color-brand);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+    background-color: var(--color-brand);
+}
+
+.icon-link:hover .sociale-icons,
+.icon-link:focus .sociale-icons {
+  fill: var(--color-brand);
+  stroke: var(--color-icon-cociale);
+}
+
+.wrap-logo-sociale {
+  margin-right: 148px;
+}
+
+.wrap-title-list {
+  flex-shrink: 0;
+  margin-right: 140px;
+  margin-bottom: 0;
+}
+
+.wrap-title-list.footer {
+  flex-shrink: 0;
+  margin-right: 95px;
+}
+
+.footer-link:hover {
+  color: var(--color-brand);
+}
+
+.form-icons {
+  fill: var(--color-brand);
+}
+
+.for-input-icon {
+  position: relative;
+}
+
+/* Іконка всередині інпуту */
+.form-icon {
+  position: absolute;
+  left: 12px; /* Відступ іконки від краю інпуту */
+  top: 50%; /* Розташування по центру вертикально */
+  transform: translateY(-50%); /* Центрування іконки */
+  fill: var(--color-brand); /* Колір іконки */
+  pointer-events: none; /* Щоб іконка не перекривала поле вводу */
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ .for-input-icon:focus-within .form-icon {
+  fill: var(--color-primeri-light); /* Змінений колір іконки */
+}
+
+/* Зміна кольору плейсхолдера при фокусі */
+.form-field:focus::placeholder {
+  color: var(--color-primeri-light)
+}
+
+.wrap-title-form-button {
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+
+}

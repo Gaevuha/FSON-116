@@ -7,3 +7,4 @@ import './js/menu.js';
 import './js/slider.js';
 import './js/slider-clients.js';
 import './js/star.js';
+import './js/question.js';

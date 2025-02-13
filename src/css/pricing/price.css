@@ -1,0 +1,36 @@
+/* Price */
+.section-price-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;  /*32*/
+}
+
+.section-price .price-title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+@media screen and (min-width: 1150px) {
+
+ /* .section-price .container {
+  display: flex;
+  flex-direction: column; 
+} */
+
+.section-price-title {
+  margin-bottom: 32px;
+}
+
+.section-price .price-title {
+  margin-bottom: 16px;
+}
+.section-price .price-text {
+  margin-bottom: 49px;
+}
+
+.section.section-price {
+  padding-bottom: 75px;
+}
+
+}

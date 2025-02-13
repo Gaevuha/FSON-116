@@ -11,17 +11,35 @@
 @import url('./fonts.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./mobile-menu.css');
-@import url('./hero.css');
-@import url('./product.css');
-@import url('./management.css');
-@import url('./support.css');
-@import url('./collaborative.css');
-@import url('./process.css');
-@import url('./strategies.css');
-@import url('./price.css');
-@import url('./clients.css');
-@import url('./promo.css');
-@import url('./footer.css');
+@import url('./product/header.css');
+@import url('./product/mobile-menu.css');
+@import url('./product/hero.css');
+@import url('./product/product.css');
+@import url('./product/management.css');
+@import url('./product/support.css');
+@import url('./product/collaborative.css');
+@import url('./product/process.css');
+@import url('./product/strategies.css');
+@import url('./product/price.css');
+@import url('./product/clients.css');
+@import url('./product/promo.css');
+@import url('./product/footer.css');
 @import url('../rateYo-2.3.4/src/jquery.rateyo.css');
+
+@import url('./customers/mobile-menu.css');
+@import url('./customers/header.css');
+@import url('./customers/client.css');
+@import url('./customers/choose.css');
+@import url('./customers/product.css');
+@import url('./customers/offer.css');
+@import url('./customers/promo.css');
+@import url('./customers/footer.css');
+
+@import url('./pricing/header.css');
+@import url('./pricing/mobile-menu.css');
+@import url('./pricing/price.css');
+@import url('./pricing/enterprise.css');
+@import url('./pricing/effects.css');
+@import url('./pricing/question.css');
+@import url('./pricing/promo.css');
+@import url('./pricing/footer.css');

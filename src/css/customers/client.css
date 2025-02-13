@@ -1,0 +1,66 @@
+/* Our client */
+
+.client-section {
+  padding-bottom: 76px;
+}
+
+.client-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.client-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px 50px;
+
+}
+
+.client-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc((100% - 50px) / 2);
+}
+.client-link {
+  display: inline-block;
+}
+
+.client-logo {
+  display: block;
+  height: 34px;
+  width: 164px;
+}
+
+ @media screen and (min-width: 1150px) {
+
+
+.client-title {
+  margin-bottom: 50px;
+}
+
+.client-section {
+  padding: 100px 0 60px 0;
+}
+
+.client-section .container {
+  max-width: 850px;
+  padding: 0;
+}
+.client-list {
+  flex-wrap: nowrap;
+  gap: 0 64px;
+  padding: 19px 0;
+}
+.client-logo {
+  width: 213px;
+  height: 44px;
+}
+.client-item {
+  width: calc((100% - 192px) / 4);
+}
+ }

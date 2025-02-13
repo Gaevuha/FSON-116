@@ -1,0 +1,103 @@
+/* How Product Work */
+
+.product-work {
+  padding-bottom: 70px;
+}
+.product-work .section-title {
+  margin-bottom: 79px;
+}
+.product-work .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-work-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-work-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+.product-work-card:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+.product-work-img {
+  margin-bottom: 70px;
+}
+
+.step {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.card-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.product-work-btn {
+  display: none;
+}
+
+.card-text {
+  width: 355px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+ @media screen and (min-width: 1150px) {
+.product-work {
+  padding-bottom: 58px;
+}
+.product-work .section-title {
+  margin-bottom: 73px;
+}
+
+.product-work .container {
+  padding: 0;
+  max-width: 1027px;
+}
+
+.product-work-list {
+  gap: 100px;
+  margin-bottom: 78px;
+ 
+}
+
+.product-work-card {
+  gap: 88px;
+}
+
+.product-work-card {
+  flex-direction: row;
+}
+
+.product-work-card:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.product-work-img {
+  margin-bottom: 0;
+}
+
+.product-work-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.card-text {
+  width: 438px;
+}
+.product-work-btn {
+  display: block;
+  border-radius: 8px;
+  width: 224px;
+}
+
+}

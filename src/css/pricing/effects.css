@@ -1,0 +1,78 @@
+/* Effects */
+
+
+.effects-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.wrap-effects-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-icon-effects-bg);
+}
+
+.wrap-icon-title {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   margin-bottom: 16px;
+}
+
+.effects-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.effect-img {
+  margin-bottom: 32px;
+}
+
+.effects-item-text {
+  max-width: 335px;
+  line-height: 1.75;
+} 
+  @media screen and (min-width: 1150px) {
+.effects-section {
+  padding: 75px 0;
+}
+
+.wrap-effects.image-list {
+  display: flex;
+  gap: 60px;
+}
+
+
+.effects-item-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.effects-title {
+  font-size: 34px;
+  margin-bottom: 56px;
+}
+
+.wrap-icon-title {
+   gap: 14px;
+}
+
+.effects-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.effect-img {
+  margin-bottom: 0;
+}
+
+.effects-item-text {
+  max-width: 541px;
+} 
+.effects-hyphenation {
+    display: block;
+  }
+}
